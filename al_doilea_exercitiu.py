@@ -19,8 +19,7 @@ plt.legend(title="Parametrii")
 plt.savefig("Primele 5 valori.png")
 plt.show()
 
-x=df[['Durata', 'Puls']][-13:]
-x.plot(color=['brown', 'pink'])
+df[-13:].plot()
 plt.title("Ultimele 13 valori")
 plt.xlabel("Index")
 plt.ylabel("Valori")
